@@ -3,9 +3,9 @@
 This project is currently live at http://rachidmrad.com
 
 
-## Getting Started
+### Getting Started
 
-To get you started you can simply clone the repository. 
+To get started, simply clone the repository. 
 
 ### Starting the local server
 
@@ -24,7 +24,7 @@ In a different command prompt window, access [root]/bower_components/bootstrap a
 grunt watch
 ```
 
-## The Data
+### The Data
 
 It lives in JSON files in [root]/app/data
 The main view's data is in portfolio.json
