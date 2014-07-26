@@ -1,0 +1,26 @@
+{
+	"name": "HYDRAULIC FRACTURING",
+	"snippet": "{ Wordpress Theme }",
+	"information": {
+		"role": "Created the front-end prototype and supervised the template's development.",
+		"description": "Created a re-usable QZ (quartz.com) style navigation for API's microsites. The website slides left and right, top and down in mobile view. It is built and behaves like a single-page app.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Twitter Bootstrap, JavaScript, LESS, Deep-Linking (JS).",
+		"secondaryViews": [
+			{
+				"image": "img/hydraulicfracturing/hydraulicfracturing_partial1.png",
+				"placeholderURL": "img/placeholder_afcs.png",
+				"link": "http://rachidmrad.com/qz-template/index.html",
+				"linkText": "Mobile View"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/hydraulicfracturing/hydraulicfracturing_partial2.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/qz-template/index.html",
+			"linkText": "Desktop View"
+		}
+	]
+}

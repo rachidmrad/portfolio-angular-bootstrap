@@ -1,0 +1,27 @@
+{
+	"name": "Nested Pages",
+	"snippet": "{ Experimental UI }",
+	"information": {
+		"role": "",
+		"description": "A nested UI concept. Links show windows into the pages they link to, that grow to become the actual pages. Give it a try.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "CSS3, JavaScript animation of box-shadow",
+		"secondaryViews": [
+			
+		]
+	},
+	"images": [
+		{
+			"image": "img/moebius/moebius_partial1.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/moebius/",
+			"linkText": "Nested Pages"
+		},
+		{
+			"image": "img/moebius/moebius_partial2.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/moebius/",
+			"linkText": "Nested Pages"
+		}
+	]
+}

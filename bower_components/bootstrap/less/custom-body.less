@@ -1,0 +1,197 @@
+// custom body styles, typography, and various stuff
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,400,700);
+
+
+@color-primary: #ffffff;
+@color-secondary: #000000;
+//WHITE THEME
+// @color-primary: #ffffff;
+// @color-secondary: #414042;
+@zindex-modal: 8;
+@zindex-modal-background: 0;
+@modal-backdrop-bg: #414042; 
+@modal-backdrop-opacity: 1;
+@border-radius-large: 0;
+@grid-gutter-width:         20px;
+
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  //overflow: hidden;
+  height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+  font-weight: 400;
+  background: #414042; 
+  //WHITE THEME
+  //background: white;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+	overflow: hidden;
+  padding-bottom: 300px;
+  //-overflow-y: scroll;
+}
+
+.btn {
+	border-radius: 0;
+	font-size: 16px;
+	padding: 8px 12px;
+	.transition(all .35s);
+}
+
+.parallelogramRight {
+  .skew(-30deg; 0);
+  .skewAdjuster {
+    .skew(30deg; 0);
+  }
+}
+
+.btn-default {
+	background: @color-secondary;
+	color: @color-primary;
+	&:hover,
+  	&:focus {
+    	background: @color-primary;
+		  color: @color-secondary;
+    	text-decoration: none;
+    	.glyph-group {
+    		.dash { background: @color-secondary; }
+    	}
+  	}
+
+  	&:active,
+  	&.active {
+    	outline: 0;
+    	background: @color-primary;
+		  color: @color-secondary;
+    	.box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+    	.glyph-group {
+    		.dash { background: @color-secondary; }
+    	}
+  	}
+}
+.btn-muted {
+  background: none;
+  color: #ccc;
+    &:hover,
+    &:focus {
+      background: none;
+      color: @color-secondary;
+      text-decoration: none;
+    }
+    &:active,
+    &.active {
+      outline: 0;
+      background: none;
+      color: @color-secondary;
+      .box-shadow(none);
+    }
+}
+
+// UI animation
+// plus-minus module attached to buttons. Default state
+.expander-plus {
+  .glyph-group {
+    .transition(all .35s);
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    .dash {
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 12px;
+      background: @color-primary;
+      &:first-child {
+        top: 5px;
+      }
+      &:nth-child(2) {
+        top: 5px;
+        left: 0;
+        .rotate(90deg);
+      }
+    }
+  }
+}
+// plus-minus module attached to buttons. Animation, called in JS on the element, using the inique identifier
+.expander-plus.active {
+  .glyph-group {
+    .rotate(225deg);
+  }
+}
+
+// the burger. Default state
+.expander-hamburger {
+  .glyph-group {
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    .dash {
+      .transition(all .35s);
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 12px;
+      background: @color-primary;
+      &:nth-child(2) {
+        top: 5px;
+        left: 0;
+      }
+      &:nth-child(3) {
+        top: 10px;
+        left: 0;
+      }
+    }
+  }
+}
+// Burger animation, called in JS on the element, using the inique identifier
+.expander-hamburger.active {
+  .glyph-group {
+    .dash {
+      &:nth-child(1) {
+        .rotate(225deg);
+        top: 5px;
+        left: 0px;
+      }
+      &:nth-child(2) {
+        .opacity(0);
+      }
+      &:nth-child(3) {
+        .rotate(-225deg);
+        top: 5px;
+        left: 0px;
+      }
+    }
+  }
+}
+h2 {
+  font-weight: 700;
+}
+.active {
+  z-index: 20;
+}
+.modal {
+  ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    li {
+      margin-top: 6px;
+      margin-bottom: 6px;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+	"name": "AIR FORCE STEM",
+	"snippet": "{ Dual site }",
+	"information": {
+		"role": "Developed with MarCom Group: creative directors Curtis Nelson & Bryan Clark, designers Carolyn Belefski, Soon Ham, & Jerel Motos, senior developer Matthew Brackney",
+		"description": "The main site features heavy HTML5, CSS3, and JavaScript Interactivity for tablets and desktops, including sound, video, animation, and games. Interactive elements are optimized for different platforms and support IE8+. The mobile version features CSS3 transitions, list navigations, and a drill-down IA.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "JavaScript animation using greensock.js, HTML5 video with IE support using video.js, HTML5 sound with IE support using soundmanager2.js, responsive layouts without a visual grid, IE support using css3-mediaqueries.js, custom scrollbars, cookies, JavaScript mobile detection.",
+		"secondaryViews": [
+			{
+				"image": "img/stem/stem_partial7.png",
+				"placeholderURL": "img/placeholder_desktop.png",
+				"link": "http://www.rachidmrad.com/STEM/mb/",
+				"linkText": "Mobile Site"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/stem/stem_partial1.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/spider-goats.html",
+			"linkText": "Spider Goats!"
+		},
+		{
+			"image": "img/stem/stem_partial2.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/bio-threats.html",
+			"linkText": "Chained Animations"
+		},
+		{
+			"image": "img/stem/stem_partial3.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/test-pilots.html",
+			"linkText": "Flippin' Awesome"
+		},
+		{
+			"image": "img/stem/stem_partial4.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/missiles.html",
+			"linkText": "Video API"
+		},
+		{
+			"image": "img/stem/stem_partial5.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/rockets.html",
+			"linkText": "Matt's Chained Animations"
+		},
+		{
+			"image": "img/stem/stem_partial6.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/nano-technology.html",
+			"linkText": "DOM Magnifier"
+		}
+	]
+}

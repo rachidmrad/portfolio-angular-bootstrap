@@ -1,0 +1,32 @@
+{
+	"name": "UDC",
+	"snippet": "{ Logo }",
+	"information": {
+		"role": "Part of a design team under the art direction of Serdar Sirtanadolu, with Derek Horton and Danielle Interdonato.",
+		"description": "Logo re-design for the University of the District of Columbia, circa 2007",
+		"mediaTitle": "",
+		"mediaDetail": "",
+		"secondaryViews": [
+			{
+				"image": "img/udc/udc_partial1.gif",
+				"placeholderURL": "img/placeholder_desktop_thin.png",
+				"link": "http://rachidmrad.com/pdfs/udclogo.pdf",
+				"linkText": "Branding"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/udc/udc_partial2.gif",
+			"placeholderURL": "img/placeholder_desktop_thin.png",
+			"link": "http://rachidmrad.com/pdfs/udclogo.pdf",
+			"linkText": "Process"
+		},
+		{
+			"image": "img/udc/udc_partial3.gif",
+			"placeholderURL": "img/placeholder_desktop_thin.png",
+			"link": "img/udc/udc_partial2.gif",
+			"linkText": "Process (Firebirds Logo)"
+		}
+	]
+}

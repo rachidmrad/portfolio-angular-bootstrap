@@ -1,0 +1,22 @@
+		
+          
+          <div class="custom-view1" ng-style="style()" resize>
+	          
+	          <div ng-repeat="work in portfolio | filter:orderProp" class="work-item">
+	          		<div class="inner">
+	          			<div class="inner-inner" style="background-image:url('{{work.imageURL}}');"> <!-- that's some deep stuff right there: we need all three divs to create a clipped hexagon -->
+			          		<a href="#/project/{{work.id}}/?scrollTo=top" class="work-information">
+			          			<div class="inner-text">
+			          				<div class="inner-text-inner">
+			          					<h2>{{work.name}}</h2>
+					          			<p>{{work.snippet}}</p>
+					          		</div>
+					          	</div>
+							</a>
+						</div>	
+					</div>
+			   </div>
+          
+          </div>
+        
+

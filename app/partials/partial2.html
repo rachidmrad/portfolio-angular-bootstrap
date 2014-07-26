@@ -1,0 +1,56 @@
+		
+
+		<div id="top" class="container content-wrapper custom-view2">
+			
+			<div class="row">
+				<div class="col-lg-6 visible-lg">
+				</div>
+				<div class="col-lg-6">
+					<h1>{{work.name}}</h1>
+					<p class="snippet">{{work.snippet}}</p>
+					<p class="role"><em>{{work.information.role}}</em></p>
+				</div>
+			</div>		
+			
+			<div class="row">
+				<div class="col-lg-6 col-lg-push-6">
+					<p><strong>Description: </strong>{{work.information.description}}</p>
+					<p><strong>{{work.information.mediaTitle}}</strong>{{work.information.mediaDetail}}</p>
+					<br />
+					<div ng-repeat="secondaryImg in work.information.secondaryViews">
+						<div class="work-item">
+							<div class="inner">
+								<img class="placeholder" ng-src="{{secondaryImg.placeholderURL}}" />
+								<img class="thumb" ng-src="{{secondaryImg.image}}">
+								<a class="work-information" href="{{secondaryImg.link}}">
+									<div class="inner-text">
+				          				<div class="inner-inner">
+				          					<h2>{{secondaryImg.linkText}}</h2>
+						          		</div>
+					          		</div>
+								</a>
+							</div>
+						</div>
+	        		</div>
+				</div>
+				<div class="col-lg-6 col-lg-pull-6">
+					<div ng-repeat="img in work.images">
+						<div class="work-item">
+							<div class="inner">
+								<img class="placeholder" ng-src="{{img.placeholderURL}}" />
+								<img class="thumb" ng-src="{{img.image}}">
+								<a class="work-information" href="{{img.link}}">
+									<div class="inner-text">
+				          				<div class="inner-inner">
+				          					<h2>{{img.linkText}}</h2>
+						          		</div>
+					          		</div>
+								</a>
+							</div>
+						</div>
+	        		</div>
+	        	</div>
+			</div>
+	        
+        </div>
+      

@@ -1,0 +1,32 @@
+{
+	"name": "\"ART IS A VEHICLE\" MURAL",
+	"snippet": "{ Mural }",
+	"information": {
+		"role": "“Art is the vehicle for the transmission of ideas through form, the reproduction of the form only reinforces the concept.”–Sol LeWitt.",
+		"description": "Permanent Instalation at the University of the District of Columbia, sponsored by Professor Daniel Venne, Art Program Director.",
+		"mediaTitle": "Media: ",
+		"mediaDetail": "Acrylic on canvas.",
+		"secondaryViews": [
+			{
+				"image": "img/lewittmural/lewittmural_partial3.jpg",
+				"placeholderURL": "img/placeholder_typographybook.png",
+				"link": "http://rachidmrad.com/pdfs/rmrad01.pdf",
+				"linkText": "View All (PDF)"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/lewittmural/lewittmural_partial1.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad01.pdf",
+			"linkText": "View All (PDF)"
+		},
+		{
+			"image": "img/lewittmural/lewittmural_partial2.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad01.pdf",
+			"linkText": "View All (PDF)"
+		}
+	]
+}

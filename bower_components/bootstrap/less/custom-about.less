@@ -1,0 +1,98 @@
+// Actual modal
+.modal-content {
+  border: 1px solid @color-secondary;
+  border-radius: none; // gotta fix this
+  .box-shadow(0 3px 9px rgba(0,0,0,.5));
+  background-clip: padding-box;
+  // Remove focus outline from opened modal
+  outline: none;
+}
+
+// Modal background
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex-modal-background;
+  background-color: @modal-backdrop-bg;
+  // Fade for backdrop
+  &.fade { .opacity(1); }
+  &.in { .opacity(@modal-backdrop-opacity); }
+}
+
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal-header {
+  padding: @modal-title-padding;
+  border-bottom: 1px solid @modal-header-border-color;
+  min-height: (@modal-title-padding + @modal-title-line-height);
+}
+// Title text within header
+.modal-title {
+  margin: 0;
+  line-height: @modal-title-line-height;
+}
+
+// Modal body
+// Where all modal content resides (sibling of .modal-header and .modal-footer)
+.modal-body {
+  position: relative;
+  padding: @modal-inner-padding;
+}
+.modal-dialog {
+  width: 100%;
+  margin: 150px auto;
+  margin-top: 100px;
+  z-index:8; //screen is 7
+}
+// Scale up the modal
+@media (min-width: @screen-sm-min) {
+  // Automatically set modal's width for larger viewports
+  .modal-dialog {
+    width: @modal-md;
+  }
+}
+@media (min-width: @screen-md-min) {
+  .modal-dialog {
+    width: @modal-lg;
+  }
+}
+
+
+//About styles
+.mask-galaxy {
+    padding-bottom: 1px;
+    background: url(http://hqwallpapersplus.com/wp-content/uploads/2013/10/Cosmos-Wallpapers-14.jpg) center center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: travelGalaxy 10s linear infinite;
+    -moz-animation: travelGalaxy 10s linear infinite;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-animation: travelGalaxy 10s linear infinite;
+    -o-text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-animation: travelGalaxy 10s linear infinite;
+    h1 {
+      // font-family: "Lobster", sans-serif;
+      font-size: 40px;
+      // margin-bottom: 20px;
+      letter-spacing: .5px;
+      @media (min-width: @screen-xs-min) { font-size: 60px; }
+      font-weight: 800;
+      text-align: center;
+      color: @color-primary;
+    }
+
+}
+@-webkit-keyframes travelGalaxy {
+    0% {background-position: right bottom;}
+    100% {background-position: left top;}
+}
+@-moz-keyframes travelGalaxy {
+    0% {background-position: right bottom;}
+    100% {background-position: left top;}
+}
+

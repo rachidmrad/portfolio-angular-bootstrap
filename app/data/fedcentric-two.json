@@ -1,0 +1,32 @@
+{
+	"name": "FEDCENTRIC 2",
+	"snippet": "{ Better Scalability }",
+	"information": {
+		"role": "",
+		"description": "A re-design built on Twitter Bootstrap to allow for better scalability and maintenance.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Twitter Bootstrap, LESS.",
+		"secondaryViews": [
+			{
+				"image": "img/fedcentric2/fedcentric2_partial1.jpg",
+				"placeholderURL": "img/placeholder_afcs.png",
+				"link": "http://rachidmrad.com/FC/redesign/index.html",
+				"linkText": "Home"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/fedcentric2/fedcentric2_partial2.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/FC/redesign/company.html",
+			"linkText": "Company"
+		},
+		{
+			"image": "img/fedcentric2/fedcentric2_partial3.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/FC/redesign/resources.html",
+			"linkText": "Resources"
+		}
+	]
+}

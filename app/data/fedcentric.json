@@ -1,0 +1,32 @@
+{
+	"name": "FEDCENTRIC",
+	"snippet": "{ Custom Solutions }",
+	"information": {
+		"role": "",
+		"description": "A quick turnaround, completely custom solution for a Big Data company. The website is built around a hybrid list/mega-dropdown and a special request for a solutions portfolio page.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Custom scaffolding, JS/CSS solution for a hybrid list/mega-dropdown navigation, chained JS animations.",
+		"secondaryViews": [
+			{
+				"image": "img/fedcentric/fedcentric_partial3.png",
+				"placeholderURL": "img/placeholder_fedcentric1.png",
+				"link": "http://rachidmrad.com/FC",
+				"linkText": "Custom Nav Solution"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/fedcentric/fedcentric_partial1.jpg",
+			"placeholderURL": "img/placeholder_fedcentric1.png",
+			"link": "http://rachidmrad.com/FC",
+			"linkText": "Custom Slider"
+		},
+		{
+			"image": "img/fedcentric/fedcentric_partial2.jpg",
+			"placeholderURL": "img/placeholder_fedcentric1.png",
+			"link": "http://rachidmrad.com/FC/solutions.html",
+			"linkText": "Chained Animations"
+		}
+	]
+}

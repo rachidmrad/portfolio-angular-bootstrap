@@ -1,0 +1,32 @@
+{
+	"name": "BISTRO VIVANT",
+	"snippet": "{ Campaign }",
+	"information": {
+		"role": "",
+		"description": "Branding, stationary, comment cards, menus, and a website.",
+		"mediaTitle": "Media: ",
+		"mediaDetail": "Menus designed for daily print on location, business cards and comment cards printed on 100lb linen cardstock, natural white.",
+		"secondaryViews": [
+			{
+				"image": "img/bistrovivant/bistrovivant_partial1.jpg",
+				"placeholderURL": "img/placeholder_desktop.png",
+				"link": "http://rachidmrad.com/pdfs/bistrovivant.pdf",
+				"linkText": "Branding"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/bistrovivant/bistrovivant_partial2.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/pdfs/bistrovivant.pdf",
+			"linkText": "Print Design"
+		},
+		{
+			"image": "img/bistrovivant/bistrovivant_partial3.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.bistrovivant.com/",
+			"linkText": "Website"
+		}
+	]
+}

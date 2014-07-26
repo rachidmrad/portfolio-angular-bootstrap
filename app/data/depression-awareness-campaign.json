@@ -1,0 +1,32 @@
+{
+	"name": "DEPRESSION AWARENESS CAMPAIGN",
+	"snippet": "{ Posters }",
+	"information": {
+		"role": "",
+		"description": "Concept for a depression awareness campaign.",
+		"mediaTitle": "Detail",
+		"mediaDetail": "Conceptual art, Pen and Ink illustrations, typographical arrangements.",
+		"secondaryViews": [
+			{
+				"image": "img/depression/depression_partial2.jpg",
+				"placeholderURL": "img/placeholder_depression.png",
+				"link": "img/depression/depression_partial2.jpg",
+				"linkText": "Poster 2"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/depression/depression_partial1.jpg",
+			"placeholderURL": "img/placeholder_depression.png",
+			"link": "img/depression/depression_partial1.jpg",
+			"linkText": "Poster 1"
+		},
+		{
+			"image": "img/depression/depression_partial3.jpg",
+			"placeholderURL": "img/placeholder_depression.png",
+			"link": "img/depression/depression_partial3.jpg",
+			"linkText": "Poster 3"
+		}
+	]
+}

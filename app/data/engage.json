@@ -1,0 +1,26 @@
+{
+	"name": "ENGAGE IPAD NEWSLETTER",
+	"snippet": "{ iPad-Optimized Website}",
+	"information": {
+		"role": "",
+		"description": "A lightweight, built from scratch, modular Front-End template for an iPad newsletter.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "On-Scroll animated header, expandable article, poll, video, and image modules",
+		"secondaryViews": [
+		]
+	},
+	"images": [
+		{
+			"image": "img/engage/engage_partial1.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/engage",
+			"linkText": "Modular"
+		},
+		{
+			"image": "img/engage/engage_partial2.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/engage",
+			"linkText": "On-Scroll Animated Header"
+		}
+	]
+}

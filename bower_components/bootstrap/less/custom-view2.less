@@ -1,0 +1,102 @@
+// project view
+
+.custom-view2 {
+
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 120px;
+	h1 {
+		display: inline-block;
+		color: @color-primary;
+		margin-top: 0;
+		//background-color: #ccc;
+	}
+	p {
+		color: #f2f2f2;
+		//WHITE THEME
+		//color: #999;
+	}
+	p.role {
+		color: #999;
+		//WHITE THEME
+		//color: #414042;
+	}
+	.snippet {
+		display: inline-block;
+		font-size: 120%;
+		color: @color-secondary;
+		margin-left: 15px;
+		line-height: 36px;
+		vertical-align: middle;
+	}
+	.btn {
+		text-align: center;
+		margin: auto;
+	}
+
+	.work-item {
+		margin-bottom: 30px; 
+		//clear: none;
+		//border: solid green 1px;
+		.inner {
+			overflow: hidden;
+			position: relative;
+			.placeholder { //set the dimensions of the thumb's viewport
+				position: relative;
+				width: 100%;
+				height: auto;
+			}
+			.thumb {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: auto;
+				z-index: 1;
+				.transition(all .35s ease-out);
+			}
+			&:hover {
+				.thumb {
+					top: -5%;
+					left: -5%;
+					width: 110%;
+				}
+			}
+			//border:solid green 1px;
+			.work-information {
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: block;
+				width: 100%;
+				height: 100%;
+				padding: 10%;
+				// background: @color-primary;
+				// color: @color-secondary;
+				background: url("../img/transparent_background.png");
+				color: @color-primary;
+				text-decoration: none;
+				text-align: center;
+				z-index: 2;
+				//clear: none;
+				border:solid @color-primary 1px;
+				.opacity(0);
+				.transition(all .35s);
+				&:hover {
+					.opacity(1);
+				}
+				.inner-text {
+					display: table;
+					height: 100%;
+					width: 100%;
+					.inner-inner {
+						display: table-cell;
+						vertical-align: middle;
+					}
+					
+				}
+			}
+		}
+	}
+	
+}

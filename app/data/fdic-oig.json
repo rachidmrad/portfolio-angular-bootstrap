@@ -1,0 +1,39 @@
+{
+	"name": "FDIC-OIG",
+	"snippet": "{ Intranet Site }",
+	"information": {
+		"role": "Developed with MarCom Group: creative director Curtis Nelson, designer Soon Ham",
+		"description": "An Intranet Site for the Office of Inspector General, featuring a fully customizable draggable grid. Users define where each block links to on the site (available options are read from a data file). The blocks are draggable and can be stacked by users as they chose to.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "JS animation, cookies, popups and expandables from scratch, JSON, XML",
+		"secondaryViews": [
+			
+		]
+	},
+	"images": [
+		{
+			"image": "img/fdic/fdic_partial1.jpg",
+			"placeholderURL": "img/placeholder_fdic.png",
+			"link": "http://rachidmrad.com/OIG/index.html",
+			"linkText": "Clean Slate"
+		},
+		{
+			"image": "img/fdic/fdic_partial2.jpg",
+			"placeholderURL": "img/placeholder_fdic.png",
+			"link": "http://rachidmrad.com/OIG/index.html",
+			"linkText": "User Selectable Options"
+		},
+		{
+			"image": "img/fdic/fdic_partial3.jpg",
+			"placeholderURL": "img/placeholder_fdic.png",
+			"link": "http://rachidmrad.com/OIG/index.html",
+			"linkText": "Cookies"
+		},
+		{
+			"image": "img/fdic/fdic_partial4.jpg",
+			"placeholderURL": "img/placeholder_fdic.png",
+			"link": "http://rachidmrad.com/OIG/index.html",
+			"linkText": "Draggable DOM Elements"
+		}
+	]
+}

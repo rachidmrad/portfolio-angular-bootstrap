@@ -1,0 +1,38 @@
+{
+	"name": "THE PERFECT CUP OF TEA",
+	"snippet": "{ Book }",
+	"information": {
+		"role": "The original brief (written by Michelle Wolfarth) posed a design challenge: reach out to a person[s] within the target audience, educate her [them] on the different varieties of tea and how proper temperature and steeping time can make a difference in the brewing of the ‘perfect cup’.",
+		"description": "The Perfect Cup of Tea is a unique gift of 8 hand painted Tea Cups, Knitted Doilies, a handcrafted box, and a hand painted table cloth.",
+		"mediaTitle": "Media: ",
+		"mediaDetail": "Acrylic on ceramic, acrylic on wood, acrylic on canvas, textile, hemp rope.",
+		"secondaryViews": [
+			{
+				"image": "img/perfectcupoftea/perfectcupoftea_partial1.jpg",
+				"placeholderURL": "img/placeholder_typographybook.png",
+				"link": "http://rachidmrad.com/pdfs/rmrad03.pdf",
+				"linkText": "View All (PDF)"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/perfectcupoftea/perfectcupoftea_partial2.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad03.pdf",
+			"linkText": "View All (PDF)"
+		},
+		{
+			"image": "img/perfectcupoftea/perfectcupoftea_partial3.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad03.pdf",
+			"linkText": "View All (PDF)"
+		},
+		{
+			"image": "img/perfectcupoftea/perfectcupoftea_partial4.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad03.pdf",
+			"linkText": "View All (PDF)"
+		}
+	]
+}

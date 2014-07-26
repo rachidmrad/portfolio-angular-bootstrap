@@ -1,0 +1,44 @@
+{
+	"name": "AIR FORCE CIVILIAN SERVICE FORUM PLATFORM",
+	"snippet": "{ Website }",
+	"information": {
+		"role": "Developed with MarCom Group: creative director Bryan Clark, designer Soon Ham",
+		"description": "A Front-End prototype for an online event platform featuring a virtual conference center with interactive lobby, exhibit hall, fully customizable booths, and auditorium.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Built from scratch, tablet / desktop responsive, IE-8 compatible layout, zoom page-transition animations, custom scrollbars, CSS3 animation with IE support using greensock.js, HTML5 video with IE support using video.js, complex nested drop-down menu with embedded custom scrollbar.",
+		"secondaryViews": [
+			{
+				"image": "img/afcs/afcs_partial2.jpg",
+				"placeholderURL": "img/placeholder_afcs.png",
+				"link": "http://rachidmrad.com/VE/lobby.html",
+				"linkText": "Lobby"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/afcs/afcs_partial1.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/VE/grand-entrance.html",
+			"linkText": "Gateway"
+		},
+		{
+			"image": "img/afcs/afcs_partial3.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/VE/exhibit-hall.html",
+			"linkText": "Exhibit Hall"
+		},
+		{
+			"image": "img/afcs/afcs_partial4.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/VE/C2A2brown.html",
+			"linkText": "Booth"
+		},
+		{
+			"image": "img/afcs/afcs_partial5.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/VE/auditorium.html",
+			"linkText": "Auditorium"
+		}
+	]
+}

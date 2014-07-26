@@ -1,0 +1,44 @@
+{
+	"name": "MARCOM GROUP WEBSITE",
+	"snippet": "{ Dual site }",
+	"information": {
+		"role": "Developed with MarCom Group: creative directors Curtis Nelson & Bryan Clark, designers Bryan Clark, Carolyn Belefski, Soon Ham, & Jerel Motos, senior developer Matthew Brackney",
+		"description": "The main site features plenty of CSS3 and JavaScript animation, including a 3D cube slider (Matt), a sectioned slider (Matt and I), a flipping portfolio section with directional hovers (I), and a horizontal accordion (Matt). The mobile version features an off-screen slide-in navigation.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "JavaScript animation using greensock.js, HTML5 video with IE support using video.js, cookies, JavaScript mobile detection.",
+		"secondaryViews": [
+			{
+				"image": "img/marcom/marcom_partial1.png",
+				"placeholderURL": "img/placeholder_desktop.png",
+				"link": "http://rachidmrad.com/MARCOM_MB/",
+				"linkText": "Mobile Site"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/marcom/marcom_partial2.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/marcom_full/index.html",
+			"linkText": "Cubic Slider"
+		},
+		{
+			"image": "img/marcom/marcom_partial3.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/marcom_full/portfolio.html",
+			"linkText": "Flippin' Portfolio w/ Directional Hovers"
+		},
+		{
+			"image": "img/marcom/marcom_partial4.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/marcom_full/portfolioPages/p_nga_print.html?section=print#",
+			"linkText": "Portfolio Item"
+		},
+		{
+			"image": "img/marcom/marcom_partial5.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/marcom_full/whatwedo.html",
+			"linkText": "Sectional Slider"
+		}
+	]
+}

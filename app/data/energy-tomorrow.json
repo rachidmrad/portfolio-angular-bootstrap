@@ -1,0 +1,38 @@
+{
+	"name": "ENERGY TOMORROW",
+	"snippet": "{ Front-End Prototype }",
+	"information": {
+		"role": "Adapted the existing website design and content (4000+ pages) into a fully responsive Bootstrap template.",
+		"description": "The top-tier mega-menu contains ~100 links. To create a smooth User Experience on mobile, nested drop-down lists were created within the collapsible navigation. The mega-menu was kept fully functional for larger views.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Twitter Bootstrap, JavaScript, LESS.",
+		"secondaryViews": [
+			{
+				"image": "img/energytomorrow/energytomorrow_partial1.png",
+				"placeholderURL": "img/placeholder_afcs.png",
+				"link": "http://rachidmrad.com/energytomorrow/index.html",
+				"linkText": "UX Solution"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/energytomorrow/energytomorrow_partial2.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://www.energytomorrow.org",
+			"linkText": "View Original Website"
+		},
+		{
+			"image": "img/energytomorrow/energytomorrow_partial3.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/energytomorrow/index.html",
+			"linkText": "Cool Carousel"
+		},
+		{
+			"image": "img/energytomorrow/energytomorrow_partial4.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/energytomorrow/index.html",
+			"linkText": "Cool Hovers"
+		}
+	]
+}

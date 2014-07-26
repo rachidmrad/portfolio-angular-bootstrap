@@ -1,0 +1,44 @@
+{
+	"name": "CIGARETTE PACK ART & TYPOGRAPHY",
+	"snippet": "{ Book }",
+	"information": {
+		"role": "",
+		"description": "A 52-page history of cigarette pack art and typography, including detailed analysis of the Marlboro, Camel, and Lucky Strike logos.",
+		"mediaTitle": "Media: ",
+		"mediaDetail": "50pages of content plus end pages and covers, digitally printed (4/4) on 100lb offset. Cover printed (4/0) on white gloss 100% polyester canvas and manually stretched over chipboard.",
+		"secondaryViews": [
+			{
+				"image": "img/typographybook/typographybook_partial2.jpg",
+				"placeholderURL": "img/placeholder_typographybook.png",
+				"link": "http://rachidmrad.com/pdfs/rmrad02.pdf",
+				"linkText": "View All (PDF)"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/typographybook/typographybook_partial1.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad02.pdf",
+			"linkText": "View All (PDF)"
+		},
+		{
+			"image": "img/typographybook/typographybook_partial3.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad02.pdf",
+			"linkText": "View All (PDF)"
+		},
+		{
+			"image": "img/typographybook/typographybook_partial4.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad02.pdf",
+			"linkText": "View All (PDF)"
+		},
+		{
+			"image": "img/typographybook/typographybook_partial5.jpg",
+			"placeholderURL": "img/placeholder_typographybook.png",
+			"link": "http://rachidmrad.com/pdfs/rmrad02.pdf",
+			"linkText": "View All (PDF)"
+		}
+	]
+}

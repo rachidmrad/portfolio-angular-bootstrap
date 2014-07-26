@@ -1,0 +1,21 @@
+{
+	"name": "Folding CSS Plane",
+	"snippet": "{ Experimental Module for Use as Page Transition }",
+	"information": {
+		"role": "Developed with MarCom Group: creative director Curtis Nelson, designer Jerel Motos",
+		"description": "A CSS3 and JS folding plane, activated on click.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Greensock.js, CSS3",
+		"secondaryViews": [
+			
+		]
+	},
+	"images": [
+		{
+			"image": "img/foldingplane/foldingplane_partial1.gif",
+			"placeholderURL": "img/placeholder_foldingplane.png",
+			"link": "http://rachidmrad.com/folding_plane_locations/",
+			"linkText": "onClick Origami Plane"
+		}
+	]
+}

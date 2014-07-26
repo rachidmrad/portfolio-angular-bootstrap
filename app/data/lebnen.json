@@ -1,0 +1,38 @@
+{
+	"name": "LEBNEN",
+	"snippet": "{ Truly Invisible UI }",
+	"information": {
+		"role": "Designed and Developed by Rachid, showcasing the photography of Sandy Lane and Rouba AbouChabke",
+		"description": "A CSS3 and JS folding plane, activated on click.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Greensock.js, CSS3",
+		"secondaryViews": [
+			{
+			"image": "img/lebnen/lebnen_partial2.jpg",
+			"placeholderURL": "img/placeholder_lebnen.png",
+			"link": "http://lebneyn.com/index.html",
+			"linkText": "Easily Accessible Hidden Content"
+		}
+		]
+	},
+	"images": [
+		{
+			"image": "img/lebnen/lebnen_partial1.jpg",
+			"placeholderURL": "img/placeholder_lebnen.png",
+			"link": "http://lebneyn.com/index.html",
+			"linkText": "A Truly Invisible UI"
+		},
+		{
+			"image": "img/lebnen/lebnen_partial3.jpg",
+			"placeholderURL": "img/placeholder_lebnen.png",
+			"link": "http://lebneyn.com/byblos.html",
+			"linkText": "Nav Slides In When Mouse is Close"
+		},
+		{
+			"image": "img/lebnen/lebnen_partial4.jpg",
+			"placeholderURL": "img/placeholder_lebnen.png",
+			"link": "http://lebneyn.com/baalbek.html",
+			"linkText": "Great Shots!"
+		}
+	]
+}

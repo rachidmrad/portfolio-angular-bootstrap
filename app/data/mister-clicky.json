@@ -1,0 +1,22 @@
+{
+	"name": "MISTER ClICKY",
+	"snippet": "{ SVG experiment }",
+	"information": {
+		"role": "",
+		"description": "Don't make mister Clicky angry. You won't like him when he's angry.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "SVG and JavaScript (snap.svg)",
+		"secondaryViews": [
+			{
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/mrclicky/mrclicky_partial1.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/mrclicky/index.html",
+			"linkText": "Just Don't"
+		}
+	]
+}

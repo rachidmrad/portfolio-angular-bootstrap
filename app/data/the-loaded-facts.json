@@ -1,0 +1,38 @@
+{
+	"name": "THE LOADED FACTS",
+	"snippet": "{ Campaign }",
+	"information": {
+		"role": "",
+		"description": "A personal campaign for gun control, centered around an interactive quiz website. The site features data from Time Magazine, a score counter, and an easter-egg surprise when the score becomes negative. Supporting media include posters, a Facebook and a Twitter accounts, and a strong brand.",
+		"mediaTitle": "Media: ",
+		"mediaDetail": "Website built with HTML5/CSS3/JS, responsive, JS animations, uses cookies. Posters are 4/0 at 11x17' and have QR codes pointing to the website, Facebook page design, Twitter page design.",
+		"secondaryViews": [
+			{
+				"image": "img/theloadedfacts/theloadedfacts_partial4.png",
+				"placeholderURL": "img/placeholder_desktop.png",
+				"link": "img/theloadedfacts/theloadedfacts_partial4.jpg",
+				"linkText": "Posters"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/theloadedfacts/theloadedfacts_partial1.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad/theloadedfacts/index.html",
+			"linkText": "Take the Quiz"
+		},
+		{
+			"image": "img/theloadedfacts/theloadedfacts_partial2.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad/theloadedfacts/index.html",
+			"linkText": "Game-Like Animation Feedback"
+		},
+		{
+			"image": "img/theloadedfacts/theloadedfacts_partial3.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad/theloadedfacts/index.html",
+			"linkText": "Easter-Egg Surprise"
+		}
+	]
+}

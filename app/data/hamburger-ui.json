@@ -1,0 +1,22 @@
+{
+	"name": "HAMBURGER UI",
+	"snippet": "{ Front-End Exploration }",
+	"information": {
+		"role": "Designed and Developed a full-page slider with a minimalistic hamburger.",
+		"description": "Ready for further development and eventual production.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Twitter Bootstrap, LESS.",
+		"secondaryViews": [
+			{
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/hamburgerui/hamburgerui_partial1.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/hamburger-nav/index.html",
+			"linkText": "WIP"
+		}
+	]
+}

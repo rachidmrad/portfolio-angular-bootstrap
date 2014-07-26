@@ -1,0 +1,32 @@
+{
+	"name": "AMERICAN PETROLEUM INSTITUTE",
+	"snippet": "{ Front-End Prototype }",
+	"information": {
+		"role": "Adapted the existing website design and content (2500+ pages) into a fully responsive Bootstrap template.",
+		"description": "The top-tier mega-menu contains 200+ links. To create a smooth User Experience on mobile, drop-downs were replaced by a contextual list menu positioned at the bottom of the page. The mega-menu on larger viewports was kept intact.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "Twitter Bootstrap, JavaScript, LESS.",
+		"secondaryViews": [
+			{
+				"image": "img/api/api_partial2.png",
+				"placeholderURL": "img/placeholder_desktop.png",
+				"link": "http://rachidmrad.com/api/index.html",
+				"linkText": "UX Solution"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/api/api_partial3.png",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.api.org",
+			"linkText": "View Original Website"
+		},
+		{
+			"image": "img/api/api_partial1.png",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://rachidmrad.com/api/index.html",
+			"linkText": "View Responsive Prototype"
+		}
+	]
+}

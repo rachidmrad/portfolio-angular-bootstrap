@@ -1,0 +1,26 @@
+{
+	"name": "COURTHOUSE DENTISTRY",
+	"snippet": "{ Responsive Website }",
+	"information": {
+		"role": "Developed and art-directed by Rach, Designed by Rouba AbouChabke",
+		"description": "A lightweight, responsive website created from scratch",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "JavaScript animation using greensock.js, lightweight scaffolding designed from scratch, custom slider",
+		"secondaryViews": [
+			{
+				"image": "img/courthousedentistry/courthouse_partial2.png",
+				"placeholderURL": "img/placeholder_desktop.png",
+				"link": "http://www.courthousedentistry.com/",
+				"linkText": "Lightweight & Responsive"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/courthousedentistry/courthouse_partial1.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.courthousedentistry.com/",
+			"linkText": "Lightweight & Responsive"
+		}
+	]
+}

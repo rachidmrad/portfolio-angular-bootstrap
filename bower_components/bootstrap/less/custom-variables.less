@@ -1,0 +1,42 @@
+// custom body styles 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,400,700);
+
+@color-primary: #ffffff;
+@color-secondary: #000000;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.btn {
+	border-radius: 0;
+	font-size: 16px;
+	padding: 8px 12px;
+	.transition(all .35s);
+}
+
+.btn-default {
+	background: @color-secondary;
+	color: @color-primary;
+	&:hover,
+  	&:focus {
+    	background: @color-primary;
+		color: @color-secondary;
+    	text-decoration: none;
+    	.glyph-group {
+    		.dash { background: @color-secondary; }
+    	}
+  	}
+
+  	&:active,
+  	&.active {
+    	outline: 0;
+    	background: @color-primary;
+		color: @color-secondary;
+    	.box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+    	.glyph-group {
+    		.dash { background: @color-secondary; }
+    	}
+  	}
+}

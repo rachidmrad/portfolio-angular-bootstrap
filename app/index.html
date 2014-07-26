@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Designer's Portfolio">
+    <meta name="author" content="Rachid J Mrad">
+  <title>Rachid J Mrad</title>
+  <!-- In production:
+  move: bootstrap.min.js, angular.js, angular-route.js, bootstrap.min.js 
+  use: <script src="js/x.x.x.js"></script>
+  -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+
+  <!-- for CSS Transitions and/or Keyframe Animations -->
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrapper">
+  <div class="custom-navbar" role="navigation">
+
+      <div class="customnavbar-header" ng-controller="MyCtrl1">
+        
+        <div class="about parallelogramRight expander-plus btn btn-default">
+          <div class="skewAdjuster">
+            <span class="sr-only">Toggle information</span>
+            <span class="hidden-xs">About</span>
+            <div class="glyph-group">
+              <span class="dash"></span>
+              <span class="dash"></span>
+            </div>
+          </div>  
+        </div>
+        <div class="contact parallelogramRight expander-hamburger btn btn-default" data-toggle="open-contacts">
+          <div class="skewAdjuster">
+            <span class="sr-only">Toggle contact navigation</span>
+            <span class="hidden-xs">Contact</span>
+            <div class="glyph-group">
+              <span class="dash"></span>
+              <span class="dash"></span>
+              <span class="dash"></span>
+            </div>
+          </div>  
+        </div>  
+      </div>
+      <div class="sort-portfolio btn btn-default">
+        <select ng-model="orderProp" click> <!-- creating a directive was the only way I found for changing the view and the ng-model for the first scope --> 
+              <option value="" selected>All<sup> *</sup></option>
+              <option value="websites">Websites</option>
+              <option value="print">Print</option>
+              <option value="traditional">Fine Art</option>
+              <option value="experiments">Experiments</option>
+        </select>
+      </div>
+      <!-- has to come after the select, otherwise the ngclick does not work -->
+      <a href="#" class="home parallelogramRight pull-left active" ng-click="orderProp=''"> <!-- href resets the view, orderProp resets the order -->
+        <div class="skewAdjuster">
+          <span class="sr-only">home</span>
+          <span class="letter">R</span>
+          <span class="letter hidden-xs">a</span>
+          <span class="letter hidden-xs">c</span>
+          <span class="letter hidden-xs">h</span>
+          <span class="letter hidden-xs">i</span>
+          <span class="letter hidden-xs">d</span>
+          <span class="letter">J</span>
+          <span class="letter">M</span>
+          <span class="letter hidden-xs">r</span>
+          <span class="letter hidden-xs">a</span>
+          <span class="letter hidden-xs">d</span>
+        </div>    
+      </a>
+
+    <div class="hidden-contacts">
+      <ul>
+        <li><a class="parallelogramRight" href="mailto:rachid.mrad@gmail.com"><div class="skewAdjuster">Email</div></a></li>
+        <li><a class="parallelogramRight" href="https://github.com/rachidmrad"><div class="skewAdjuster">Github</div></a></li>
+        <li><a class="parallelogramRight" href="https://www.facebook.com/rachid.j.mrad"><div class="skewAdjuster">Facebook</div></a></li>
+        <li><a class="parallelogramRight" href="https://twitter.com/rachidmrad"><div class="skewAdjuster">Twitter</div></a></li>
+        <li><a class="phone-number parallelogramRight" href=""><div class="skewAdjuster">571-213-8505</div></a></li>
+      </ul>
+    </div><!-- /.hidden-contacts -->
+  </div><!-- /.navbar -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" aria-describedby="about Rachid" data-keyboard="false" data-backdrop="static"> <!--  -->
+    <div class="modal-screen modal-dismiss"></div>
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <article id="myModalLabel" class="mask-galaxy">
+            <h1>Interaction Designer</h1>
+          </article>
+        </div>
+        <div class="modal-body">
+          <p>Studied Computer Science, Graphic Design, then some more Graphic Design (MA student at SCAD)</p>
+          <p>Worked in print and web design. Adjunct faculty in the Graphic Design program at UDC.</p>
+          <!-- <p>Currently UI/UX consultant for American Petroleum Institute.</p> -->
+          <h2>Skills &amp; Experience</h2>
+          <p>How do you measure skill? Below is my attempt at quantifying my experience with the different aspects of design.</p>
+          <ul>
+            <li><strong>Visual Design: </strong>Proficient</li>
+            <li><strong>Typography: </strong>Proficient</li>
+            <li><strong>CSS3: </strong>Expert</li>
+            <li><strong>SASS/LESS: </strong>Proficient</li>
+            <li><strong>Responsive Web Design: </strong>Expert</li>
+            <li><strong>GIT: </strong>Gittin there</li>
+            <li><strong>UI Design: </strong>Competent</li>
+            <li><strong>UX Design: </strong>Competent</li>
+            <li><strong>AngularJs: </strong>Advanced Beginner</li>
+            <li><strong>JavaScript: </strong>Competent</li>
+            <li><strong>JQuery: </strong>Competent</li>
+            <li><strong>Print Stuff: </strong>Proficient</li>
+            <li><strong>Fine Art/Conceptual Stuff: </strong>Proficient</li>
+            <li><strong>Charming Personality? </strong>Yup</li>
+          </ul>
+          <p>This site was built using Twitter Bootstrap, Angular.js, and a few gallons of really good coffee.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="modal-dismiss btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="view-container">
+    <div ng-view class="view-frame"></div>
+  </div>  
+
+  <!-- <div class="contact-screen"></div> -->
+</div> <!-- wrapper   -->
+
+  <!-- In production:
+  move: bootstrap.min.js, angular.js, angular-route.js, bootstrap.min.js 
+  use: <script src="js/x.x.x.js"></script>
+  -->
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-animate/angular-animate.js"></script>
+  <script src="../bower_components/angular-route/angular-route.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+<!-- DEPLOYMENT -->
+  <!--<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-animate.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>-->
+</body>
+</html>

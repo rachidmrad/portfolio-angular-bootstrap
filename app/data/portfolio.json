@@ -1,0 +1,242 @@
+[
+    {
+        "dateAdded": 4032014,
+        "name": "AIR FORCE STEM",
+        "id": "air-force-stem",
+        "size": "col-sm-6",
+        "placeholderURL": "img/placeholder_lg.png",
+        "imageURL": "img/stem/stem_main.jpg",
+        "snippet": "A dual site featuring heavy JavaScript Interactivity for tablets and desktops, with MarCom Group", 
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "QUEENS",
+        "id": "queens",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/queens/queens_main.jpg",
+        "snippet": "2 oil paintings (out of a planned 4) of playing card queens",
+        "media": "all traditional"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "MARCOM GROUP",
+        "id": "marcom-group",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/marcom/marcom_main.jpg",
+        "snippet": "A flashy portfolio page for a design agency in Fairfax, with MarCom Group",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "MOEBIUS EXPERIMENT",
+        "id": "moebius-experiment",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/moebius/moebius_main.jpg",
+        "snippet": "An experimental nested UI",
+        "media": "all experiments"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "CIGARETTE PACK ART & TYPOGRAPHY",
+        "id": "cigarette-pack-art-and-typography",
+        "size": "col-sm-6",
+        "placeholderURL": "img/placeholder_lg.png",
+        "imageURL": "img/typographybook/typographybook_main.jpg",
+        "snippet": "A 52 page chronicle of cigarette pack art and typography through history",
+        "media": "all print"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "THE PERFECT CUP OF TEA",
+        "id": "the-perfect-cup-of-tea",
+        "size": "col-sm-6",
+        "placeholderURL": "img/placeholder_lg.png",
+        "imageURL": "img/perfectcupoftea/perfectcupoftea_main.jpg",
+        "snippet": "8 hand-painted tea cups in a custom built package",
+        "media": "all traditional"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "AMERICAN PETROLEUM INSTITUTE",
+        "id": "american-petroleum-institute",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/api/api_main.jpg",
+        "snippet": "A UX driven responsive solution developed for API",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "SOL LEWITT MURAL",
+        "id": "sol-lewitt-mural",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/lewittmural/lewittmural_main.jpg",
+        "snippet": "A 4-panel acrylic on canvas typographic narrative inspired by Sol Lewitt",
+        "media": "all traditional"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "THE LOADED FACTS",
+        "id": "the-loaded-facts",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/theloadedfacts/theloadedfacts_main.jpg",
+        "snippet": "A 360 degree campaign for gun control",
+        "media": "all websites print"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "BISTRO VIVANT",
+        "id": "bistro-vivant",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/bistrovivant/bistrovivant_main.jpg",
+        "snippet": "Identity, print, and website for a French bistro in McLean",
+        "media": "all print websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "UNIVERSITY OF THE DISTRICT OF COLUMBIA",
+        "id": "university-of-the-district-of-columbia",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/udc/udc_main.jpg",
+        "snippet": "Logo for UDC, with Serdar Sirtanadolu, Derek Horton, and Danielle Interdonato",
+        "media": "all print"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "DEPRESSION AWARENESS CAMPAIGN",
+        "id": "depression-awareness-campaign",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/depression/depression_main.jpg",
+        "snippet": "A series of 3 Pen & Ink illustrated posters",
+        "media": "all print traditional"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "AFCS FORUM",
+        "id": "afcs-forum",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/afcs/afcs_main.jpg",
+        "snippet": "A Virtual Event Forum for AFCS, with MarCom Group",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "ENGAGE",
+        "id": "engage",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/engage/engage_main.jpg",
+        "snippet": "A modular content-driven iPad Newsletter",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "COURTHOUSE DENTISTRY",
+        "id": "courthouse-dentistry",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/courthousedentistry/courthouse_main.jpg",
+        "snippet": "A lightweight responsive website, built from scratch, with Rouba AbouChabke",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "FDIC OIG",
+        "id": "fdic-oig",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/fdic/fdic_main.jpg",
+        "snippet": "An intratet app featuring draggable, customizable blocks, with MarCom Group",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "FOLDING CSS PLANE",
+        "id": "folding-css-plane",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/foldingplane/foldingplane_main.jpg",
+        "snippet": "An animated CSS UI widget developed for the USAF",
+        "media": "all experiments"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "LEBNEN",
+        "id": "lebnen",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/lebnen/lebnen_main.jpg",
+        "snippet": "A visual introduction to Lebanon featuring unobtrusive UI solutions",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "FEDCENTRIC",
+        "id": "fedcentric",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/fedcentric/fedcentric_main.jpg",
+        "snippet": "A custom website for a Big-Data company, built from scratch",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 7152014,
+        "name": "ENERGY TOMORROW",
+        "id": "energy-tomorrow",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/energytomorrow/energytomorrow_main.jpg",
+        "snippet": "Another UX driven responsive solution developed for API",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 7152014,
+        "name": "MISTER CLICKY",
+        "id": "mister-clicky",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/mrclicky/mrclicky_main.jpg",
+        "snippet": "An SVG animation experiment",
+        "media": "all experiments"
+    },
+    {
+        "dateAdded": 7152014,
+        "name": "LOADED BURGER",
+        "id": "hamburger-ui",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/hamburgerui/hamburgerui_main.jpg",
+        "snippet": "A full-size slider with a minimal hamburger navigation",
+        "media": "all experiments"
+    },
+    {
+        "dateAdded": 7152014,
+        "name": "FEDCENTRIC 2",
+        "id": "fedcentric-two",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/fedcentric2/fedcentric2_main.jpg",
+        "snippet": "A Bootstrap re-design",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 7152014,
+        "name": "HYDRAULIC FRACTURING",
+        "id": "hydraulic-fracturing",
+        "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
+        "placeholderURL": "img/placeholder_sm.png",
+        "imageURL": "img/hydraulicfracturing/hydraulicfracturing_main.jpg",
+        "snippet": "A QZ-style template",
+        "media": "all experiments websites"
+    }
+]
