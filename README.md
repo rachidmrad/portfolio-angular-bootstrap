@@ -9,16 +9,32 @@ To get started, simply clone the repository.
 
 ### Starting the local server
 
-From [root], run:
+Assuming you have node installed, from the project folder run:
 
 ```
 npm start
 ```
-to start the local server. You can then load the app in your browser at http://localhost:8000/app/
+This will start the local server. You can then load the app in your browser at http://localhost:8000/app/
+If npm fails to init, make sure the package.json exists then run 
+
+```
+npm install
+```
 
 ### Using LESS
 
-In a different command prompt window, access [root]/bower_components/bootstrap and run
+In a different command prompt window, access portfolio-angular-bootstrap/bower_components/bootstrap and run
+
+```
+grunt watch
+```
+This will start watching for LESS changes.
+If grunt fails to init, make sure the package.json that's in the bootstrap dir exists, then run
+
+```
+npm install -g grunt-cli
+```
+then run 
 
 ```
 grunt watch
