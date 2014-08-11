@@ -1,89 +1,71 @@
-.work-listing.ng-enter,
-.work-listing.ng-leave,
-.work-listing.ng-move {
-  -webkit-transition: 0.5s linear all;
-  -moz-transition: 0.5s linear all;
-  -o-transition: 0.5s linear all;
-  transition: 0.5s linear all;
+/* Views 1 and 2*/
+.repeat-animation.ng-enter-stagger,
+.repeat-animation.ng-leave-stagger,
+.repeat-animation.ng-move-stagger,
+.repeat-animation2.ng-enter-stagger,
+.repeat-animation2.ng-leave-stagger,
+.repeat-animation2.ng-move-stagger {
+  /* 100ms will be applied between each sucessive enter operation */ 
+  -moz-transition-delay:0.1s!important;
+  -webkit-transition-delay:0.1s!important;
+  transition-delay:0.1s!important;
+
+  /* this is here to avoid accidental CSS inheritance */
+  -webkit-transition-duration:0!important;
+  transition-duration:0!important;
 }
 
-.work-listing.ng-enter,
-.work-listing.ng-move {
-  opacity: 0;
-  /*height: 0;*/
-  /*overflow: hidden;*/
+.repeat-animation.ng-enter,
+.repeat-animation.ng-leave,
+.repeat-animation.ng-move,
+.repeat-animation2.ng-enter,
+.repeat-animation2.ng-leave,
+.repeat-animation2.ng-move {
+  -moz-transition:0.2s ease-in-out all;
+  -webkit-transition:0.2s ease-in-out all;
+  transition:0.2s ease-in-out all;
 }
 
-.work-listing.ng-move.ng-move-active,
-.work-listing.ng-enter.ng-enter-active {
-  opacity: 1;
-  /*height: 120px;*/
+.repeat-animation.ng-leave.ng-leave-active,
+.repeat-animation.ng-enter,
+.repeat-animation.ng-move,
+.repeat-animation2.ng-leave.ng-leave-active,
+.repeat-animation2.ng-enter,
+.repeat-animation2.ng-move {
+  -moz-transition:0.2s ease-in-out all;
+  -webkit-transition:0.2s ease-in-out all;
+  transition:0.2s ease-in-out all;
+
+  opacity:0;
+  /*transform:scale(0.5,0.5);
+  -ms-transform:scale(0.5,0.5);
+  -webkit-transform:scale(0.5,0.5);*/
 }
 
-.work-listing.ng-leave {
-  opacity: 1;
-  /*overflow: hidden;*/
+.repeat-animation.ng-leave,
+.repeat-animation.ng-move.ng-move-active,
+.repeat-animation.ng-enter.ng-enter-active 
+{
+  opacity:1;
+  /*transform:scale(1,1) rotate(120deg);
+  -ms-transform:scale(1,1) rotate(120deg);
+  -webkit-transform:scale(1,1) rotate(120deg); */ 
 }
 
-.work-listing.ng-leave.ng-leave-active {
-  opacity: 0;
-  /*height: 0;
-  padding-top: 0;
-  padding-bottom: 0;*/
+.repeat-animation2.ng-leave,
+.repeat-animation2.ng-move.ng-move-active,
+.repeat-animation2.ng-enter.ng-enter-active {
+  opacity:1;
+  /*transform:scale(1,1);
+  -ms-transform:scale(1,1);
+  -webkit-transform:scale(1,1);  */
 }
 
-.view-container {
-  position: relative;
-}
 
-.view-frame.ng-enter, .view-frame.ng-leave {
-  /*WHITE THEME*/
-  /*background: #fff; */
-  background: #414042; 
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 
-.view-frame.ng-enter {
-  -webkit-animation: 0.5s fade-in;
-  -moz-animation: 0.5s fade-in;
-  -o-animation: 0.5s fade-in;
-  animation: 0.5s fade-in;
-  z-index: 3;
-}
 
-.view-frame.ng-leave {
-  -webkit-animation: 0.5s fade-out;
-  -moz-animation: 0.5s fade-out;
-  -o-animation: 0.5s fade-out;
-  animation: 0.5s fade-out;
-  z-index:2;
-}
 
-@keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@-moz-keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@-webkit-keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
 
-@keyframes fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-@-moz-keyframes fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
-@-webkit-keyframes fade-out {
-  from { opacity: 1; }
-  to { opacity: 0; }
-}
+
+
+

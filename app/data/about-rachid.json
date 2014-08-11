@@ -1,0 +1,57 @@
+{
+	"name": "RACHID JOSEPH MRAD",
+	"snippet": "{ That's me }",
+	"information": {
+		"role": "Responsive Web Design expert with a passion for User Interface Design and an understanding of User Experience Design.",
+		"descriptionTitle": "",
+		"description": "Currently having a blast with Angular.js and finishing an online Master at Savannah College of Art and Design.",
+		"mediaTitle": "Education and Experience: ",
+		"mediaDetail": "Studied Computer Science, Graphic Design, then some more Graphic Design (MA student at SCAD).<br />Worked in print and web design. Adjunct faculty in the Graphic Design program at UDC.",
+		"secondaryViews": [
+			{
+				"image": "img/about/anim-signature.gif",
+				"placeholderURL": "img/placeholder_desktop.png",
+				"link": "#",
+				"linkText": "Not My Real Signature!"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/stem/stem_partial1.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/spider-goats.html",
+			"linkText": "Spider Goats!"
+		},
+		{
+			"image": "img/stem/stem_partial2.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/bio-threats.html",
+			"linkText": "Chained Animations"
+		},
+		{
+			"image": "img/stem/stem_partial3.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/test-pilots.html",
+			"linkText": "Flippin' Awesome"
+		},
+		{
+			"image": "img/stem/stem_partial4.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/missiles.html",
+			"linkText": "Video API"
+		},
+		{
+			"image": "img/stem/stem_partial5.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/rockets.html",
+			"linkText": "Matt's Chained Animations"
+		},
+		{
+			"image": "img/stem/stem_partial6.jpg",
+			"placeholderURL": "img/placeholder_desktop.png",
+			"link": "http://www.rachidmrad.com/STEM/dev/nano-technology.html",
+			"linkText": "DOM Magnifier"
+		}
+	]
+}

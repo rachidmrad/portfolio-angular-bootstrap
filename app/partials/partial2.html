@@ -14,10 +14,10 @@
 			
 			<div class="row">
 				<div class="col-lg-6 col-lg-push-6">
-					<p><strong>Description: </strong>{{work.information.description}}</p>
+					<p><strong>{{work.information.descriptionTitle}}</strong>{{work.information.description}}</p>
 					<p><strong>{{work.information.mediaTitle}}</strong>{{work.information.mediaDetail}}</p>
 					<br />
-					<div ng-repeat="secondaryImg in work.information.secondaryViews">
+					<div ng-repeat="secondaryImg in work.information.secondaryViews" class="repeat-animation2">
 						<div class="work-item">
 							<div class="inner">
 								<img class="placeholder" ng-src="{{secondaryImg.placeholderURL}}" />
@@ -34,7 +34,7 @@
 	        		</div>
 				</div>
 				<div class="col-lg-6 col-lg-pull-6">
-					<div ng-repeat="img in work.images">
+					<div ng-repeat="img in work.images" class="repeat-animation2">
 						<div class="work-item">
 							<div class="inner">
 								<img class="placeholder" ng-src="{{img.placeholderURL}}" />

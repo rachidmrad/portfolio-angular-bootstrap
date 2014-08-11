@@ -11,7 +11,7 @@
   move: bootstrap.min.js, angular.js, angular-route.js, bootstrap.min.js 
   use: <script src="js/x.x.x.js"></script>
   -->
-  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"/>
 
   <!-- for CSS Transitions and/or Keyframe Animations -->
   <link rel="stylesheet" href="css/animations.css">
@@ -28,7 +28,7 @@
 
       <div class="customnavbar-header" ng-controller="MyCtrl1">
         
-        <div class="about parallelogramRight expander-plus btn btn-default">
+        <a href="#/about" class="about parallelogramRight expander-plus btn btn-default nav-button">
           <div class="skewAdjuster">
             <span class="sr-only">Toggle information</span>
             <span class="hidden-xs">About</span>
@@ -37,8 +37,8 @@
               <span class="dash"></span>
             </div>
           </div>  
-        </div>
-        <div class="contact parallelogramRight expander-hamburger btn btn-default" data-toggle="open-contacts">
+        </a>
+        <a href="#/contact" class="contact parallelogramRight expander-hamburger btn btn-default nav-button">
           <div class="skewAdjuster">
             <span class="sr-only">Toggle contact navigation</span>
             <span class="hidden-xs">Contact</span>
@@ -48,11 +48,12 @@
               <span class="dash"></span>
             </div>
           </div>  
-        </div>  
+        </a>  
       </div>
-      <div class="sort-portfolio btn btn-default">
+      <div class="sort-portfolio">
         <select ng-model="orderProp" click> <!-- creating a directive was the only way I found for changing the view and the ng-model for the first scope --> 
-              <option value="" selected>All<sup> *</sup></option>
+              <option value="" selected>Show All<sup> *</sup></option>
+              <option value="latest">Latest</option>
               <option value="websites">Websites</option>
               <option value="print">Print</option>
               <option value="traditional">Fine Art</option>
@@ -60,7 +61,7 @@
         </select>
       </div>
       <!-- has to come after the select, otherwise the ngclick does not work -->
-      <a href="#" class="home parallelogramRight pull-left active" ng-click="orderProp=''"> <!-- href resets the view, orderProp resets the order -->
+      <a href="#" class="home parallelogramRight pull-left btn-default active nav-button" ng-click="orderProp=''"> <!-- href resets the view, orderProp resets the order -->
         <div class="skewAdjuster">
           <span class="sr-only">home</span>
           <span class="letter">R</span>
@@ -77,7 +78,7 @@
         </div>    
       </a>
 
-    <div class="hidden-contacts">
+    <!-- <div class="hidden-contacts">
       <ul>
         <li><a class="parallelogramRight" href="mailto:rachid.mrad@gmail.com"><div class="skewAdjuster">Email</div></a></li>
         <li><a class="parallelogramRight" href="https://github.com/rachidmrad"><div class="skewAdjuster">Github</div></a></li>
@@ -85,49 +86,8 @@
         <li><a class="parallelogramRight" href="https://twitter.com/rachidmrad"><div class="skewAdjuster">Twitter</div></a></li>
         <li><a class="phone-number parallelogramRight" href=""><div class="skewAdjuster">571-213-8505</div></a></li>
       </ul>
-    </div><!-- /.hidden-contacts -->
+    </div> -->
   </div><!-- /.navbar -->
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" aria-describedby="about Rachid" data-keyboard="false" data-backdrop="static"> <!--  -->
-    <div class="modal-screen modal-dismiss"></div>
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <article id="myModalLabel" class="mask-galaxy">
-            <h1>Interaction Designer</h1>
-          </article>
-        </div>
-        <div class="modal-body">
-          <p>Studied Computer Science, Graphic Design, then some more Graphic Design (MA student at SCAD)</p>
-          <p>Worked in print and web design. Adjunct faculty in the Graphic Design program at UDC.</p>
-          <!-- <p>Currently UI/UX consultant for American Petroleum Institute.</p> -->
-          <h2>Skills &amp; Experience</h2>
-          <p>How do you measure skill? Below is my attempt at quantifying my experience with the different aspects of design.</p>
-          <ul>
-            <li><strong>Visual Design: </strong>Proficient</li>
-            <li><strong>Typography: </strong>Proficient</li>
-            <li><strong>CSS3: </strong>Expert</li>
-            <li><strong>SASS/LESS: </strong>Proficient</li>
-            <li><strong>Responsive Web Design: </strong>Expert</li>
-            <li><strong>GIT: </strong>Gittin there</li>
-            <li><strong>UI Design: </strong>Competent</li>
-            <li><strong>UX Design: </strong>Competent</li>
-            <li><strong>AngularJs: </strong>Advanced Beginner</li>
-            <li><strong>JavaScript: </strong>Competent</li>
-            <li><strong>JQuery: </strong>Competent</li>
-            <li><strong>Print Stuff: </strong>Proficient</li>
-            <li><strong>Fine Art/Conceptual Stuff: </strong>Proficient</li>
-            <li><strong>Charming Personality? </strong>Yup</li>
-          </ul>
-          <p>This site was built using Twitter Bootstrap, Angular.js, and a few gallons of really good coffee.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="modal-dismiss btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
   
   <div class="view-container">
     <div ng-view class="view-frame"></div>

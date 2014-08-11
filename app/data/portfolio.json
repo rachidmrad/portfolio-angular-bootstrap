@@ -6,7 +6,7 @@
         "size": "col-sm-6",
         "placeholderURL": "img/placeholder_lg.png",
         "imageURL": "img/stem/stem_main.jpg",
-        "snippet": "A dual site featuring heavy JavaScript Interactivity for tablets and desktops, with MarCom Group", 
+        "snippet": "A dual site featuring heavy JavaScript interactivity for tablets and desktops, with MarCom Group", 
         "media": "all websites"
     },
     {
@@ -46,7 +46,7 @@
         "size": "col-sm-6",
         "placeholderURL": "img/placeholder_lg.png",
         "imageURL": "img/typographybook/typographybook_main.jpg",
-        "snippet": "A 52 page chronicle of cigarette pack art and typography through history",
+        "snippet": "A 52 page chronicle of cigarette pack art and typography throughout history",
         "media": "all print"
     },
     {
@@ -67,7 +67,7 @@
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/api/api_main.jpg",
         "snippet": "A UX driven responsive solution developed for API",
-        "media": "all websites"
+        "media": "all websites latest"
     },
     {
         "dateAdded": 4032014,
@@ -116,7 +116,7 @@
         "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/depression/depression_main.jpg",
-        "snippet": "A series of 3 Pen & Ink illustrated posters",
+        "snippet": "A series of 3 pen & ink illustrated posters",
         "media": "all print traditional"
     },
     {
@@ -126,7 +126,7 @@
         "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/afcs/afcs_main.jpg",
-        "snippet": "A Virtual Event Forum for AFCS, with MarCom Group",
+        "snippet": "A virtual event forum for AFCS, with MarCom Group",
         "media": "all websites"
     },
     {
@@ -136,7 +136,7 @@
         "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/engage/engage_main.jpg",
-        "snippet": "A modular content-driven iPad Newsletter",
+        "snippet": "A modular content-driven iPad newsletter",
         "media": "all websites"
     },
     {
@@ -186,7 +186,7 @@
         "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/fedcentric/fedcentric_main.jpg",
-        "snippet": "A custom website for a Big-Data company, built from scratch",
+        "snippet": "A custom website for a big data company, built from scratch",
         "media": "all websites"
     },
     {
@@ -197,7 +197,7 @@
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/energytomorrow/energytomorrow_main.jpg",
         "snippet": "Another UX driven responsive solution developed for API",
-        "media": "all websites"
+        "media": "all websites latest"
     },
     {
         "dateAdded": 7152014,
@@ -207,7 +207,7 @@
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/mrclicky/mrclicky_main.jpg",
         "snippet": "An SVG animation experiment",
-        "media": "all experiments"
+        "media": "all experiments latest"
     },
     {
         "dateAdded": 7152014,
@@ -227,7 +227,7 @@
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/fedcentric2/fedcentric2_main.jpg",
         "snippet": "A Bootstrap re-design",
-        "media": "all websites"
+        "media": "all websites latest"
     },
     {
         "dateAdded": 7152014,
@@ -237,6 +237,6 @@
         "placeholderURL": "img/placeholder_sm.png",
         "imageURL": "img/hydraulicfracturing/hydraulicfracturing_main.jpg",
         "snippet": "A QZ-style template",
-        "media": "all experiments websites"
+        "media": "all experiments websites latest"
     }
 ]

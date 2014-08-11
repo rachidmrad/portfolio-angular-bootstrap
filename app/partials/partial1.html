@@ -1,8 +1,40 @@
 		
-          
-          <div class="custom-view1" ng-style="style()" resize>
+          <div class="custom-view1">
+
+          		<!-- leading item, hard-coded to allow for the about tile to be places 2nd. then we kick off the repeater -->
+<!--               <div class="work-item repeat-animation">
+	          		<div class="inner">
+	          			<div class="inner-inner" style="background-image:url('img/stem/stem_main.jpg');">
+			          		<a href="#/project/air-force-stem/?scrollTo=top" class="work-information">
+			          			<div class="inner-text">
+			          				<div class="inner-text-inner">
+			          					<h2>ANGULAR PORTFOLIO</h2>
+					          			<p>This site was built using Angular.js and a few gallons of really good coffee</p>
+					          		</div>
+					          	</div>
+							</a>
+						</div>	
+					</div>
+			   </div> -->
 	          
-	          <div ng-repeat="work in portfolio | filter:orderProp" class="work-item">
+	          <!-- that's the about tile, which goes to partial3 -->
+          	  <!-- <div class="work-item repeat-animation">
+	          		<div class="inner">
+	          			<div class="inner-inner" style="background-image:url('img/about/main.gif');"> 
+			          		<a href="#/about" class="work-information">
+			          			<div class="inner-text">
+			          				<div class="inner-text-inner">
+			          					<h2>ABOUT</h2>
+					          			<p>A designer, educator, fine artist, and developer extraordinaire</p>
+					          		</div>
+					          	</div>
+							</a>
+						</div>	
+					</div>
+			   </div> -->
+
+			   <!-- the repeater. data is in portfolio.json -->
+	          <div ng-repeat="work in portfolio | filter:orderProp" class="work-item repeat-animation">
 	          		<div class="inner">
 	          			<div class="inner-inner" style="background-image:url('{{work.imageURL}}');"> <!-- that's some deep stuff right there: we need all three divs to create a clipped hexagon -->
 			          		<a href="#/project/{{work.id}}/?scrollTo=top" class="work-information">
@@ -16,7 +48,8 @@
 						</div>	
 					</div>
 			   </div>
-          
+
+				<!-- <div class="clearfix"></div> -->
           </div>
         
 

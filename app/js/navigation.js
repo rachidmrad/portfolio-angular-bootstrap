@@ -15,67 +15,24 @@ $(document).ready(function () {
     //$('.inner-inner').attr('style','-webkit-backface-visibility: visible');
   //}
   
-  $('[data-toggle=open-contacts]').click(function () {
-    $('.hidden-contacts').toggleClass('active');
-    $('.contact').toggleClass('active');
-    // $('.contact-screen').toggleClass('active');
-    closeThis('.modal-screen');
-    if ($('.about').hasClass('active')) {
-		  $('#myModal').modal('hide');
-		  closeThis('.about');
-	  }
-	toggleSortActivation();
-  });
-  
-  $('.about').click(function () {
-    $(this).toggleClass('active');
-    $('.modal-screen').toggleClass('active');
-    closeThis('.contact');
-    closeThis('.hidden-contacts');
-    // closeThis('.contact-screen');
-    $('#myModal').modal('toggle');
-    toggleSortActivation();
-  });
-  
-  $('.home').click(function () {
-    $(this).toggleClass('active');
-    closeThis('.contact');
-    closeThis('.hidden-contacts');
-    // closeThis('.contact-screen');
-    closeThis('.modal-screen');
-    if ($('.about').hasClass('active')) {
-		  $('#myModal').modal('hide');
-		  closeThis('.about');
-	  }
-	toggleSortActivation();
-  });
-  
-  $('.modal-dismiss').click(function () {
-    $('.about').toggleClass('active');
-    closeThis('.modal-screen');
-    $('#myModal').modal('toggle');
-    toggleSortActivation();
-  });
-  
-  // $('.contact-screen').click(function () {
-  //   $('.hidden-contacts').toggleClass('active');
-  //   $('.contact').toggleClass('active');
-  //   $('.contact-screen').toggleClass('active');
-  //   toggleSortActivation();
-  // });
-  
+  $('.contact').click(function () {
+    $('.nav-button').removeClass('active');
+    $('.contact').addClass('active');
+	});
 
-function closeThis(itemToClose) {
-	if ($(itemToClose).hasClass('active')) {
-		$(itemToClose).toggleClass('active');
-	}
-}
-function toggleSortActivation() {
-	if ( $('.about').hasClass('active') || $('.hidden-contacts').hasClass('active') ) {
-		$('.sort-portfolio').addClass('disabled');
-	} else {
-		$('.sort-portfolio').removeClass('disabled');
-	}
-}
+  $('.about').click(function () {
+    $('.nav-button').removeClass('active');
+    $('.about').addClass('active');
+  });
+
+  $('.home').click(function () {
+    $('.nav-button').removeClass('active');
+    $('.home').addClass('active');
+  });
+
+  $('.sort-portfolio').click(function () {
+    $('.nav-button').removeClass('active');
+    $('.home').addClass('active');
+  });
 
 });
