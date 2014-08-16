@@ -2390,6 +2390,7 @@ footer {
   margin-left: -30px;
   border-radius: 0!important;
   border: none;
+  outline: none;
   background: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2403,8 +2404,13 @@ footer {
   text-overflow: '';
   cursor: pointer;
 }
-.sort-portfolio select:focus {
+.sort-portfolio select:focus,
+.sort-portfolio select:active {
   outline: 0;
+}
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
 }
 .custom-view1 {
   position: relative;

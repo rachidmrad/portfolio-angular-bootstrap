@@ -78,6 +78,7 @@
 		margin-left: -30px; // neg margin so that clickable area covers the parallelogram
 		border-radius: 0!important;
 		border: none;
+		outline: none;
 		background: none;
 		-webkit-appearance: none;
 		-moz-appearance: none;
@@ -93,7 +94,7 @@
 	 //    &:hover {
 		//     color: @color-secondary!important;
 		// }
-		&:focus {
+		&:focus, &:active {
 			outline: 0;
 		}
 		// option {
@@ -102,4 +103,14 @@
 	}
 }
 
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+// @-moz-document url-prefix() { 
+//     select {
+//        color: transparent !important;
+//        text-shadow: 0 0 0 #000 !important;
+//     }
+// }
 
