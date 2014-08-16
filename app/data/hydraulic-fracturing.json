@@ -2,7 +2,7 @@
 	"name": "HYDRAULIC FRACTURING",
 	"snippet": "{ Wordpress Theme }",
 	"information": {
-		"role": "Created the front-end prototype and supervised the template's development.",
+		"role": "Created the front-end prototype and supervised the template's development. The design is based on PDF primers created by Zorica Tomic Whalen.",
 		"description": "Created a re-usable QZ (quartz.com) style navigation for API's microsites. The website slides left and right, top and down in mobile view. It is built and behaves like a single-page app.",
 		"mediaTitle": "Technology: ",
 		"mediaDetail": "Twitter Bootstrap, JavaScript, LESS, Deep-Linking (JS).",

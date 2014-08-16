@@ -1,0 +1,26 @@
+{
+	"name": "LITS",
+	"snippet": "{ Campaign }",
+	"information": {
+		"role": "",
+		"description": "Branding, stationery, photoshoot, website.",
+		"mediaTitle": "Media: ",
+		"mediaDetail": "Business cards printed on 100lb recycled matte stock, letterhead template designed in Word, website designed as a child theme of Story by Pexeto.",
+		"secondaryViews": [
+			{
+				"image": "img/lits/lits_partial2.jpg",
+				"placeholderURL": "img/placeholder_afcs.png",
+				"link": "http://lits.us",
+				"linkText": "Business Cards"
+			}
+		]
+	},
+	"images": [
+		{
+			"image": "img/lits/lits_partial1.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://lits.us",
+			"linkText": "Wordpress Site"
+		}
+	]
+}

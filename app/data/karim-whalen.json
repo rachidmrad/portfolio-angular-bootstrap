@@ -1,0 +1,20 @@
+{
+	"name": "THE ART OF KARIM R. WHALEN",
+	"snippet": "{ Parallax Portfolio }",
+	"information": {
+		"role": "UI design and development for a website featuring the artwork of Karim R. Whalen. Website visual design created by Zorica Tomic Whalen.",
+		"description": "A parallax multi-section portfolio website.",
+		"mediaTitle": "Technology: ",
+		"mediaDetail": "The site is built on Bootstrap with scrollspy and features a little JS parallax library I wrote specifically for the project.",
+		"secondaryViews": [
+		]
+	},
+	"images": [
+		{
+			"image": "img/karimwhalen/kw_partial1.jpg",
+			"placeholderURL": "img/placeholder_afcs.png",
+			"link": "http://rachidmrad.com/kw",
+			"linkText": "Parallax Portfolio"
+		}
+	]
+}

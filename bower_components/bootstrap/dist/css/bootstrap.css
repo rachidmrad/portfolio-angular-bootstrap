@@ -2295,6 +2295,15 @@ h2 {
   margin-top: 6px;
   margin-bottom: 6px;
 }
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #000000;
+}
 .customnavbar-header {
   display: inline;
 }

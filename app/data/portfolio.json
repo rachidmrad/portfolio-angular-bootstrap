@@ -31,6 +31,16 @@
     },
     {
         "dateAdded": 4032014,
+        "name": "THE ART OF KARIM WHALEN",
+        "id": "karim-whalen",
+        "size": "col-sm-6",
+        "placeholderURL": "img/placeholder_lg.png",
+        "imageURL": "img/karimwhalen/kw_main.jpg",
+        "snippet": "A parallax multi-section portfolio website",
+        "media": "all websites"
+    },
+    {
+        "dateAdded": 4032014,
         "name": "MOEBIUS EXPERIMENT",
         "id": "moebius-experiment",
         "size": "col-xs-12 col-sm-6 col-md-6 col-lg-3",
@@ -58,6 +68,16 @@
         "imageURL": "img/perfectcupoftea/perfectcupoftea_main.jpg",
         "snippet": "8 hand-painted tea cups in a custom built package",
         "media": "all traditional"
+    },
+    {
+        "dateAdded": 4032014,
+        "name": "LITS",
+        "id": "lits",
+        "size": "col-sm-6",
+        "placeholderURL": "img/placeholder_lg.png",
+        "imageURL": "img/lits/lits_main.jpg",
+        "snippet": "Logo, business cards and a website for a freelance language specialist",
+        "media": "all print websites latest"
     },
     {
         "dateAdded": 4032014,
