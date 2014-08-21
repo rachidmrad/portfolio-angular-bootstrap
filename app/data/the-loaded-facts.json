@@ -10,7 +10,7 @@
 			{
 				"image": "img/theloadedfacts/theloadedfacts_partial4.png",
 				"placeholderURL": "img/placeholder_desktop.png",
-				"link": "img/theloadedfacts/theloadedfacts_partial4.jpg",
+				"link": "http://rachidmrad.com/theloadedfacts/index.html",
 				"linkText": "Posters"
 			}
 		]
@@ -19,19 +19,19 @@
 		{
 			"image": "img/theloadedfacts/theloadedfacts_partial1.jpg",
 			"placeholderURL": "img/placeholder_desktop.png",
-			"link": "http://rachidmrad/theloadedfacts/index.html",
+			"link": "http://rachidmrad.com/theloadedfacts/index.html",
 			"linkText": "Take the Quiz"
 		},
 		{
 			"image": "img/theloadedfacts/theloadedfacts_partial2.jpg",
 			"placeholderURL": "img/placeholder_desktop.png",
-			"link": "http://rachidmrad/theloadedfacts/index.html",
+			"link": "http://rachidmrad.com/theloadedfacts/index.html",
 			"linkText": "Game-Like Animation Feedback"
 		},
 		{
 			"image": "img/theloadedfacts/theloadedfacts_partial3.jpg",
 			"placeholderURL": "img/placeholder_desktop.png",
-			"link": "http://rachidmrad/theloadedfacts/index.html",
+			"link": "http://rachidmrad.com/theloadedfacts/index.html",
 			"linkText": "Easter-Egg Surprise"
 		}
 	]
